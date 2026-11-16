@@ -1,0 +1,6 @@
+APK Phrasal verbs - mode d'emploi
+1. Installer Android Studio (gratuit) : https://developer.android.com/studio
+2. File > Open > choisir ce dossier "PhrasalVerbsAndroid". Attendre la synchronisation Gradle (il télécharge tout seul ce qu'il faut).
+3. Build > Build Bundle(s) / APK(s) > Build APK(s).
+4. L'APK est dans app/build/outputs/apk/debug/app-debug.apk -> à copier sur le téléphone et ouvrir (autoriser les sources inconnues).
+Pour changer le contenu de l'app : remplacer app/src/main/assets/index.html puis recompiler.
